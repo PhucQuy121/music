@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Listen To Music With My Group</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styleHeader.css">
+    <link rel="stylesheet" href="./assets/image-web/">
+    <link rel="stylesheet" href="./assets/image-singer/">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/interface/">
+    <link rel="stylesheet" href="./assets/css/styleContainer.css">
+    <link rel="stylesheet" href="./icons-1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/nummber-image/">
+    <link rel="stylesheet" href="./assets/music/">
+    <link rel="stylesheet" href="./assets/css/styleFooter.css">
+</head>
+  <body>
+      <div id="header">
+        <div class="header-logo">
+            <a href="./index.html" class="header-logo-link">
+                <img src="./assets/image-web/music-logo.png" alt="Logo music" class="header-logo-link-image">
+            </a>
+        </div>
+        <div class="header-search">
+            <div class="header-search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input class="header-search-input" type="text" placeholder="Nhập tên bài hát bạn muốn tìm vào...">    
+            <div class="header-search-history">
+                <h5 class="header-search-history-title">Đề xuất cho bạn</h3>
+                <ul class="header-search-history-list">
+                    <li class="header-search-history-list__item">
+                        <a href="#" class="header-search-history-list__item-link">
+                            <i class="header-search-history-list__item-link-icon fa-solid fa-music"></i>
+                            <span>Yêu đơn phương là gì</span>
+                        </a>
+                    </li>
+                    <li class="header-search-history-list__item">
+                        <a href="#" class="header-search-history-list__item-link">
+                            <i class="header-search-history-list__item-link-icon fa-solid fa-music"></i>
+                            <span>Anh vẫn ở đây</span>
+                        </a>
+                    </li>
+                    <li class="header-search-history-list__item">
+                        <a href="#" class="header-search-history-list__item-link">
+                            <i class="header-search-history-list__item-link-icon fa-solid fa-music"></i>
+                            <span>Họ yêu ai mất rồi</span>
+                        </a>
+                    </li>
+                    <li class="header-search-history-list__item">
+                        <a href="#" class="header-search-history-list__item-link">
+                            <i class="header-search-history-list__item-link-icon fa-solid fa-music"></i>
+                            <span>Chạnh lòng mà thương cô 2</span>
+                        </a>
+                    </li>
+                    <li class="header-search-history-list__item">
+                        <a href="#" class="header-search-history-list__item-link">
+                            <i class="header-search-history-list__item-link-icon fa-solid fa-music"></i>
+                            <span>Câu hứa chưa vẹn tròn</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bgcolor">
+            <i class="header-bgcolor-icon fa-solid fa-palette"></i>
+            <div class="header-interface">
+            </div>
+            <div class="header-interface-form col-sm-8">
+                <div class="header-interface-form-header">
+                    <h2 class="header-interface-form-header-title">Giao diện</h2>
+                    <i class="header-interface-form-header-icon fa-solid fa-xmark"></i>
+                </div>
+                <div class="header-interface-form-alt">
+                    <h4 class="header-interface-form-title">Nghệ sĩ</h4>
+                    <ul class="header-interface-form-list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-setting">
+            <i class="header-setting-icon fa-solid fa-gear"></i>
+            <div class="header-setting-tool header-setting-tool-active">
+                <ul class="header-setting-tool-list">
+                    <li class="header-setting-tool-list__item">
+                        <a href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-ban"></i>
+                            <span class="header-setting-tool-list__item-link-span">Danh sách chặn</span>
+                        </a>
+                    </li>
+                    <li class="header-setting-tool-list__item">
+                        <div href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon bi bi-badge-sd-fill"></i>
+                            <span class="header-setting-tool-list__item-link-span">Chất lượng nhạc</span>
+                            <i class="header-setting-tool-list__item-link-icon-right fa-solid fa-angle-right"></i>
+                        </div>
+                        <ul class="header-setting-tool-list__item-link-list">
+                            <li class="header-setting-tool-list__item-link-item">
+                                <h4 class="header-setting-tool-list__item-link-item-title">
+                                    SQ-128
+                                </h4>
+                                <div class="header-setting-tool-list__item-link-item-child">
+                                    <p class="header-setting-tool-list__item-link-item-p">Giảm sử dụng dữ liệu cho các kết nối chậm hơn</p>
+                                    <i class="header-setting-tool-list__item-link-item-icon fa-solid fa-check"></i>
+                                </div>
+                            </li>
+                            <li class="header-setting-tool-list__item-link-item">
+                                <h4 class="header-setting-tool-list__item-link-item-title">
+                                    HD-320
+                                </h4>
+                                <div class="header-setting-tool-list__item-link-item-child">
+                                    <p class="header-setting-tool-list__item-link-item-p">Kết hợp tốt nhất giữa việc sử dụng dữ liệu và chất lượng âm thanh</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-setting-tool-list__item">
+                        <div href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-circle-play"></i>
+                            <span class="header-setting-tool-list__item-link-span">Giao diện</span>
+                            <i class="header-setting-tool-list__item-link-icon-right fa-solid fa-angle-right"></i>
+                        </div>
+                        <ul class="header-setting-tool-list__item-link-list">
+                            <li class="header-setting-tool-list__item-link-item">
+                                <h4 class="header-setting-tool-list__item-link-item-title">
+                                    Luôn phát nhạc toàn màn hình
+                                </h4>
+                            </li>
+                            <li class="header-setting-tool-list__item-link-item">
+                                <h4 class="header-setting-tool-list__item-link-item-title">
+                                    Hiệu ứng
+                                </h4>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="header-setting-tool-list">
+                    <li class="header-setting-tool-list__item">
+                        <div href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-circle-info"></i>
+                            <span class="header-setting-tool-list__item-link-span">Giới thiệu</span>
+                        </div>
+                    </li>
+                    <li class="header-setting-tool-list__item">
+                        <a href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-flag"></i>
+                            <span class="header-setting-tool-list__item-link-span">Góp ý</span>
+                        </a>
+                    </li>
+                    <li class="header-setting-tool-list__item">
+                        <a href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-phone"></i>
+                            <span class="header-setting-tool-list__item-link-span">Liên hệ</span>
+                        </a>
+                    </li>
+                    <li class="header-setting-tool-list__item">
+                        <a href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-rectangle-ad"></i>
+                            <span class="header-setting-tool-list__item-link-span">Quảng cáo</span>
+                        </a>
+                    </li>
+                    <li class="header-setting-tool-list__item">
+                        <a href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-file-lines"></i>
+                            <span class="header-setting-tool-list__item-link-span">Thỏa thuận sử dụng</span>
+                        </a>
+                    </li>
+                    <li class="header-setting-tool-list__item">
+                        <a href="#" class="header-setting-tool-list__item-link">
+                            <i class="header-setting-tool-list__item-link-icon fa-solid fa-shield-halved"></i>
+                            <span class="header-setting-tool-list__item-link-span">Chính sách bảo mật</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-account">
+            <label for="login" class="header-account-login">Đăng Nhập</label>
+            <div class="form-account"></div>
+            <div class="form-login-main">
+                <h2 class="form-login-main-title">Đăng Nhập</h2>
+                <div class="mb-3">
+                  <label for="" class="form-label">Tài khoản</label>
+                  <input type="text|password|email|number|submit|date|datetime|datetime-local|month|color|range|search|tel|time|url|week"
+                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                  <small id="helpId" class="form-text text-muted"></small>
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Mật khẩu</label>
+                  <input type="password" class="form-control" name="" id="" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-primary|secondary|success|danger|warning|info|light|dark|link btn-login-submit">Đăng Nhập</button>
+                <div class="form-login-main-join">
+                    <h5 class="form-login-main-join-title">Đăng nhập qua các mạng xã hội:</h5>
+                    <ul class="form-login-main-join-list">
+                        <li class="form-login-main-join-list__item">
+                            <img src="./assets/image-web/zalo.png" alt="Zalo" class="form-login-main-join-list__item-image">
+                            <p class="form-login-main-join-list__item-p">Kết nối bằng Zalo</p>
+                        </li>
+                        <li class="form-login-main-join-list__item">
+                            <img src="./assets/image-web/facebook.png" alt="Zalo" class="form-login-main-join-list__item-image">
+                            <p class="form-login-main-join-list__item-p">Kết nối bằng Facebook</p>
+                        </li>
+                        <li class="form-login-main-join-list__item">
+                            <img src="./assets/image-web/google.png" alt="Zalo" class="form-login-main-join-list__item-image">
+                            <p class="form-login-main-join-list__item-p">Kết nối bằng Gmail</p>
+                        </li>
+                        <li class="form-login-main-join-list__item">
+                            <img src="./assets/image-web/instagram.png" alt="Zalo" class="form-login-main-join-list__item-image">
+                            <p class="form-login-main-join-list__item-p">Kết nối bằng Instagram</p>
+                        </li>
+                    </ul>
+                </div>
+                <h4 class="form-login-main-footer">Hãy tận hưỡng những bài nhạc hay trên Website nhé &hearts;</h4>
+            </div>
+            <span class="header-account-space"></span>
+            <label for="signup" class="header-account-signup">Đăng ký</label>
+            <div class="form-signup-main">
+                <h2 class="form-signup-main-title">Đăng Ký</h2>
+                <div class="mb-3">
+                  <label for="" class="form-label">Tài khoản</label>
+                  <input type="text|password|email|number|submit|date|datetime|datetime-local|month|color|range|search|tel|time|url|week"
+                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                  <small id="helpId" class="form-text text-muted"></small>
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Mật khẩu</label>
+                  <input type="password" class="form-control" name="" id="" placeholder="">
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Nhập lại mật khẩu</label>
+                  <input type="password" class="form-control" name="" id="" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-primary|secondary|success|danger|warning|info|light|dark|link btn-signup-submit">Đăng Ký</button>
+                <h4 class="form-signup-main-footer">Hãy tận hưỡng những bài nhạc hay trên Website nhé &hearts;</h4>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="sidebar sidebar-navigation">
+              <ul class="music-kind">
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                        <div class="music-kind-item-link-left">
+                            <i class="bi bi-file-music"></i>
+                            <p>Cá Nhân</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                        <div class="music-kind-item-link-left">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <p>Khám Phá</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link music-kind-item-link-active">
+                        <div class="music-kind-item-link-left">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <p>Zingchart</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                          <div class="music-kind-item-link-left">
+                            <i class="fa-solid fa-record-vinyl"></i>
+                            <p>Radio</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                          <div class="music-kind-item-link-left">
+                            <i class="bi bi-layout-text-sidebar-reverse"></i>
+                            <p>Theo Dỡi</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+              </ul>
+              <div class="music-kind-space"></div>
+              <ul class="music-kind">
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                          <div class="music-kind-item-link-left">
+                            <i class="fa-solid fa-music"></i>
+                            <p>Nhạc Mới</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                          <div class="music-kind-item-link-left">
+                            <i class="fa-solid fa-icons"></i>
+                            <p>Thể Loại</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                          <div class="music-kind-item-link-left">
+                            <i class="bi bi-star"></i>
+                            <p>Top 100</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+                  <li class="music-kind-item">
+                      <a href="#" class="music-kind-item-link">
+                          <div class="music-kind-item-link-left">
+                            <i class="bi bi-badge-4k-fill"></i>
+                            <p>MV</p>
+                        </div>
+                        <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                      </a>
+                  </li>
+              </ul>
+              <ul class="music-kind">
+                  <h4 class="music-kind-title">Thư Viện</h4>
+                <li class="music-kind-item">
+                    <a href="#" class="music-kind-item-link">
+                        <div class="music-kind-item-link-left">
+                            <img src="./assets/image-web/music-notes.png" alt="" class="music-kind-item-link-image">
+                            <p>Bài Hát</p>
+                        </div>
+                      <i class="music-kind-item-link-icon-right fa-solid fa-shuffle"></i>
+                    </a>
+                </li>
+                <li class="music-kind-item">
+                    <a href="#" class="music-kind-item-link">
+                        <div class="music-kind-item-link-left">
+                            <img src="./assets/image-web/list-music.png" alt="" class="music-kind-item-link-image">
+                            <p>Playlist</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="music-kind-item">
+                    <a href="#" class="music-kind-item-link">
+                        <div class="music-kind-item-link-left">
+                            <img src="./assets/image-web/album-music.png" alt="" class="music-kind-item-link-image">
+                            <p>Album</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="music-kind-item">
+                    <a href="#" class="music-kind-item-link">
+                        <div class="music-kind-item-link-left">
+                            <img src="./assets/image-web/music-cloud.png" alt="" class="music-kind-item-link-image">
+                            <p>Nhạc Tải Lên</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="music-kind-item">
+                    <a href="#" class="music-kind-item-link">
+                        <div class="music-kind-item-link-left">
+                            <img src="./assets/image-web/clock-music.png" alt="" class="music-kind-item-link-image">
+                            <p>Gần Đây</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <div class="content">
+              <div class="slider">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/image-singer/NgoPhucQuy.jpg" class="carousel-item-image d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Ngô Phúc Quý</h5>
+                          <p>Anh là người có giọng hát rất hay nhưng chưa bao giờ trình bày.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/image-singer/NgoPhucQuy2.jpg" class="carousel-item-image d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ngô Phúc Quý</h5>
+                            <p>Anh là người có giọng hát rất hay nhưng chưa bao giờ trình bày.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/image-singer/NgoPhucQuy3.jpg" class="carousel-item-image d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ngô Phúc Quý</h5>
+                            <p>Anh là người có giọng hát rất hay nhưng chưa bao giờ trình bày.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+              <div class="content-music">
+                  <div class="music">
+                        <div class="music-list-heading">
+                            <h2 class="music-list-heading-title">Việt Nam</h2>
+                            <i class="fa-solid fa-circle-play"></i>
+                        </div>
+                        <ul class="music-list">
+                        </ul>
+                        <div class="music-more">
+                            <button class="music-more-btn">Xem Tất Cả</button>
+                        </div>
+                  </div>
+              </div>
+          </div>
+          <div style="display: none;" class="sidebar sidebar-text-song"></div>
+      </div>
+      <audio id="audio" src=""></audio>
+      <div class="footer">
+          <div class="song-isPlaying">
+              <img class="song-isPlaying-image  " src="./assets/image-singer/DamCuoiNha.webp" alt="">
+              <div class="song-isPlaying-product">
+                  <h4 class="song-isPlaying-product-name"></h4>
+                  <a href="#" class="song-isPlaying-product-author"></a>
+              </div>
+          </div>
+          <div class="song-control">
+              <div class="song-control-btn">
+                <i class="btn-shuffle fa-solid fa-shuffle"></i>
+                <i class="btn-prev fa-solid fa-backward-step"></i>
+                <div class="btn-control-song">
+                    <i class="btn-control-song-play btn-control-song-active fa-solid fa-play"></i>
+                    <i class="btn-control-song-pause fa-solid fa-pause"></i>
+                </div>
+                <i class="btn-next fa-solid fa-forward-step"></i>
+                <i class="btn-repeat fa-solid fa-repeat"></i>
+              </div>
+              <div class="song-control-duration">
+                  <span class="song-control-duration-timing"></span>
+                  <input type="range" class="song-control-duration-range" value="0" step="0.00001" min="0" max="100">
+                  <span class="song-control-duration-end"></span>
+                </div>
+          </div>
+          <div class="song-love" style="font-size: 50px;">
+            <i class="song-love-notlike song-love-active bi bi-heart"></i>
+            <i class="song-love-liked bi bi-heart-fill"></i>
+          </div>
+      </div>
+      <!-- Javascript -->
+      <script type="text/javascript" src="./assets/js/focusInput.js"></script>
+      <script type="text/javascript" src="./assets/js/interface.js"></script>
+      <script type="text/javascript" src="./assets/js/account.js"></script>
+      <script type="text/javascript" src="./assets/js/song.js"></script>
+      <script type="text/javascript" src="./assets/js/footer.js"></script>
+      <script>
+        //   let app
+          focusInput()
+          interface()
+          account()
+          song()
+          footer()
+      </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>

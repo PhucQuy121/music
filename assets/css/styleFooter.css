@@ -1,0 +1,150 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 0 40px;
+    background-color: var(--bg-color);
+}
+
+.song-isPlaying {
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.song-isPlaying-image {
+    width: 80px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+@keyframes around {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.song-isPlaying-product-name {
+    font-size: 16px;
+    margin: 0 0 2px;
+}
+
+.song-isPlaying-product-author {
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.song-isPlaying-product-author:hover {
+    color: var(--text-color);
+}
+
+.song-control {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-control-btn {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.song-control-btn i {
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+
+.btn-active {
+    color: var(--text-hover) !important;
+}
+
+.btn-control-song {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-control-song-play, .btn-control-song-pause{
+    display: none;
+}
+
+.btn-control-song-active {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+}
+
+.btn-control-song-active:hover,  .song-control-btn i:hover{
+    color: var(--text-hover);
+    border-color: var(--text-hover);
+}
+
+
+.song-control-duration {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song-control-duration span {
+    color: var(--text-color);
+}
+
+.song-control-duration-range {
+    width: 80%;
+    background-color: var(--bg-default);
+    -webkit-appearance: none;
+    height: 6px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+
+.song-control-duration-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 10px;
+    background-color: var(--text-color);
+    cursor: pointer;
+  }
+
+.song-love-notlike {
+    font-size: 36px;
+    display: none;
+    cursor: pointer;
+}
+
+.song-love-notlike:hover {
+    color: rgb(255, 0, 106);
+}
+
+.song-love-liked {
+    font-size: 36px;
+    display: none;
+    cursor: pointer;
+    color: rgb(255, 0, 106);
+}
+
+
+.song-love-active {
+    display: block;
+}
