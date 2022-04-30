@@ -39,7 +39,7 @@ function song(){
             {
                 name: 'Muốn Em Là',
                 singer: 'Keyo',
-                path: './assets/music/MuonEmLa.mp3',
+                path: './assets/music/MuonEmla.mp3',
                 imageNumber: './assets/nummber-image/two.png',
                 imageSong: '/assets/image-singer/MuonEmLa.webp',
                 duration: '3:47',
