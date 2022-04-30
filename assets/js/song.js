@@ -317,7 +317,7 @@ function song(){
         },
         loadCurrentSong() {
             
-            imageSongPlaying.setAttribute('src', `${this.currentSong.imageSong}`)
+            imageSongPlaying.setAttribute('src', `.${this.currentSong.imageSong}`)
             nameSongPlaying.innerText = `${this.currentSong.name}`
             authorSongPlaying.innerText = `${this.currentSong.singer}`
             audio.setAttribute('src', `${this.currentSong.path}`)
