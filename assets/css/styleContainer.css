@@ -11,6 +11,9 @@
 .sidebar-navigation {
     width: 250px;
     background-image: linear-gradient(90deg,var(--bg-color) 70%, transparent);
+    height: 100%;
+    overflow-y: overlay;
+    overflow-x: hidden;
 }
 
 .music-kind {
