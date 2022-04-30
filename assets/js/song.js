@@ -120,7 +120,7 @@ function song(){
                         <li class="music-list-item ${index === this.currentIndex ? 'music-list-item-active':''}" data-index="${index}">
                             <img class="music-list-item-image" src="${song.imageNumber}" alt="">
                             <div class="music-list-item-song">
-                                <div  data-index="${index}" style="background-image: url(${song.imageSong});" class="music-list-item-song-active">
+                                <div  data-index="${index}" style="background-image: url(.${song.imageSong});" class="music-list-item-song-active">
                                     <div class="music-list-item-song-active-icon music-list-item-song-active-is"><i class="fa-solid fa-play"></i></div>
                                     <ul class="music-list-item-song-effect">
                                         <li class="music-list-item-song-effect-item"></li>
