@@ -99,7 +99,7 @@ function interface(){
     bgInterfaces.forEach(function(bgInterface, index) {
         bgInterface.onclick = () => {
             // console.log(imageInterfaces[index].url.replace('.',''))
-            bgContainer.style.backgroundImage = `url(${imageInterfaces[index].url.replace('.','')})`
+            bgContainer.style.backgroundImage = `url(${imageInterfaces[index].url})`
             myFunction_set(imageInterfaces[index].textColor,imageInterfaces[index].textHover, imageInterfaces[index].bgHover,
                 imageInterfaces[index].bgColor, imageInterfaces[index].bgForcus, imageInterfaces[index].bgDefault
             )
